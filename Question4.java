@@ -19,5 +19,16 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
+    int width = in.nextInt();
+
+    for (int i = width; i > 0; i--) {
+      String output = "";
+
+      for (int value = 0; value < i; value++) { 
+        output += "*";
+      }
+
+      System.out.println(output);
+    }
   }
 }
